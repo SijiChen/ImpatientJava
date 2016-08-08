@@ -5,8 +5,10 @@ import java.util.ArrayList;
 /**
  * Created by sjchen on 8/7/16.
  */
+
+
 public class Network {
-    public class Member { // Member is an inner class of Network
+    public class Member { // Member is an inner class of Network (drop static)
         private String name;
         private ArrayList<Member> friends = new ArrayList<>();
 
@@ -15,7 +17,7 @@ public class Network {
         }
 
         public void leave() {
-            members.remove(this);
+            unenroll(this);
         }
 
         public void addFriend(Member newFriend) {
@@ -44,7 +46,9 @@ public class Network {
         members.add(newMember);
         return newMember;
     }
-
+    public void unenroll(Member m){
+        members.remove(m);
+    }
     public String toString() {
         return members.toString();
     }
