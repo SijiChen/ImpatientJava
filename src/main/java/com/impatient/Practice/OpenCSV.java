@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class OpenCSV {
     public static void main(String[] arg) throws Exception{
-        CSVReader reader = new CSVReader(new FileReader("./src/Data/myCSV.csv"));
+        CSVReader reader = new CSVReader(new FileReader("./Data/myCSV.csv"));
         String [] nextLine;
         while ((nextLine = reader.readNext()) != null) {
             // nextLine[] is an array of values from the line
