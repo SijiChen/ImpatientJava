@@ -10,6 +10,8 @@ public class RandomNumber {
     public static int nextInt(int low, int high) {
         return low + generator.nextInt(high - low + 1);
         // Ok to access the static generator variable
+
     }
+
 
 }

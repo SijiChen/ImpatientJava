@@ -2,6 +2,9 @@ package com.impatient.ch02;
 
 /**
  * Created by sjchen on 8/8/16.
+ * An mutable Point class that has 2 coordinates, with method transite to move and scale ;
+ * @author Siji Chen
+ * @version 1.1
  */
 public class Point {
     private double x, y;
@@ -15,8 +18,18 @@ public class Point {
         this(0, 0);
     }
 
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public void setX(double x) {
+
+        this.x = x;
+    }
+
     public double getY() {
         return y;
+
     }
 
     public double getX() {
@@ -24,12 +37,23 @@ public class Point {
         return x;
     }
 
+    /**
+     * translate the point to another locaion
+     * @param a the coordinate x change
+     * @param b the coordinate y change
+     * @return the reference of the same point
+     */
     public Point translate(double a, double b) {
         x += a;
         y += b;
         return this;
     }
 
+    /**
+     * scale the same point
+     * @param s the amont of scale
+     * @return the reference of the same point
+     */
     public Point scale(double s) {
         x *= s;
         y *= s;
