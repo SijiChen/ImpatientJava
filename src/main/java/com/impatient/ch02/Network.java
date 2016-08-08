@@ -46,9 +46,11 @@ public class Network {
         members.add(newMember);
         return newMember;
     }
-    public void unenroll(Member m){
+
+    public void unenroll(Member m) {
         members.remove(m);
     }
+
     public String toString() {
         return members.toString();
     }

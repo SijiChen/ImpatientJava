@@ -3,6 +3,7 @@ package com.impatient.ch02;
 /**
  * Created by sjchen on 8/8/16.
  * An mutable Point class that has 2 coordinates, with method transite to move and scale ;
+ *
  * @author Siji Chen
  * @version 1.1
  */
@@ -39,6 +40,7 @@ public class Point {
 
     /**
      * translate the point to another locaion
+     *
      * @param a the coordinate x change
      * @param b the coordinate y change
      * @return the reference of the same point
@@ -51,6 +53,7 @@ public class Point {
 
     /**
      * scale the same point
+     *
      * @param s the amont of scale
      * @return the reference of the same point
      */
@@ -68,7 +71,7 @@ public class Point {
                 '}';
     }
 
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         Point p = new Point(3, 4).translate(1, 3).scale(0.5);
         System.out.println(p);
     }

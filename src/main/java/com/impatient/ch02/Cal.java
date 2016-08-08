@@ -33,7 +33,7 @@ public class Cal {
         System.out.println(" Sun Mon Tue Wed Thu Fri Sat ");
         DayOfWeek weekday = date.getDayOfWeek();
         int value = weekday.getValue(); // 1 = Monday, ... 7 = Sunday
-        for (int i = 0; i < value%7; i++)
+        for (int i = 0; i < value % 7; i++)
             System.out.print("    ");
         while (date.getMonthValue() == month) {
             System.out.printf("%4d", date.getDayOfMonth());

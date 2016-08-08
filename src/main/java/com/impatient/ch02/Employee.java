@@ -1,7 +1,5 @@
 package com.impatient.ch02;
 
-import java.util.Random;
-
 /**
  * Created by sjchen on 8/7/16.
  */

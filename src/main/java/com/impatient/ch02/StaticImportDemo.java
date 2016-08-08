@@ -1,5 +1,8 @@
 package com.impatient.ch02;
-import static java.lang.Math.*;
+
+import static java.lang.Math.pow;
+import static java.lang.Math.sqrt;
+
 /**
  * Created by sjchen on 8/7/16.
  */

@@ -12,6 +12,6 @@ public class ReferenceDemo {
         ArrayList<String> people = friends;
         people.add("Paul");
         System.out.println(friends);
-        System.out.println(friends==people);
+        System.out.println(friends == people);
     }
 }

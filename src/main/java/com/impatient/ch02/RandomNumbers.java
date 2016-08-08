@@ -12,7 +12,8 @@ public class RandomNumbers {
 
     /**
      * generate a random number from [low to high)
-     * @param low included
+     *
+     * @param low  included
      * @param high not included
      * @return
      */
@@ -20,9 +21,10 @@ public class RandomNumbers {
         return low + generator.nextInt(high - low);
         // Ok to access the static generator variable
     }
-    public static int randomElement(ArrayList<Integer> list){
-        if(list.isEmpty()) return 0;
-        int ran= RandomNumbers.nextInt(0,list.size()-1);
-        return  list.get(ran);
+
+    public static int randomElement(ArrayList<Integer> list) {
+        if (list.isEmpty()) return 0;
+        int ran = RandomNumbers.nextInt(0, list.size() - 1);
+        return list.get(ran);
     }
 }

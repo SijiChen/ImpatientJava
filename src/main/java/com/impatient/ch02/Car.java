@@ -6,6 +6,7 @@ package com.impatient.ch02;
 public class Car {
     private double fuelEfficiency;
     private double gas;
+
     public Car(double fuelEfficiency) {
         this.fuelEfficiency = fuelEfficiency;
     }
