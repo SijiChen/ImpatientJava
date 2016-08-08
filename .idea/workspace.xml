@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a023666-0fc5-4047-bceb-91ffd84de81e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Network.java" afterPath="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Network.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java" afterPath="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java" />
     </list>
     <ignored path="Java-Impetient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Network.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Network.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Network.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -103,6 +103,31 @@
                 <element signature="e#1280#1281#0" expanded="true" />
                 <element signature="e#1311#1312#0" expanded="true" />
                 <element signature="e#1352#1353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch01/ArrayMethodDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch01/StaticMethodDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch01/VarargsDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/ReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/EvilManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/CallByValueDemo.java" />
@@ -172,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/NetworkDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/EmployeeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Network.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/impatient/ch02/Point.java" />
       </list>
     </option>
   </component>
@@ -357,47 +383,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.NetworkDemo">
-    <configuration default="false" name="CallByValueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.impatient.ch02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.impatient.ch02.CallByValueDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java-Impetient" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StaticMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.impatient.ch02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.impatient.ch02.StaticMethodDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java-Impetient" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Point">
     <configuration default="false" name="StaticImportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -446,6 +432,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.impatient.ch02.NetworkDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Impetient" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.impatient.ch02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.impatient.ch02.Cal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Impetient" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.impatient.ch02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.impatient.ch02.Point" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -873,19 +899,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CallByValueDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StaticMethodDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InvoiceDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NetworkDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InvoiceDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NetworkDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Cal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Point" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NetworkDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InvoiceDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StaticMethodDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CallByValueDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Point" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Cal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NetworkDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InvoiceDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StaticImportDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -905,12 +931,12 @@
       <workItem from="1470433417048" duration="1182000" />
       <workItem from="1470487180267" duration="3600000" />
       <workItem from="1470495317865" duration="20053000" />
-      <workItem from="1470659705196" duration="1896000" />
+      <workItem from="1470659705196" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26731000" />
+    <option name="totallyTimeSpent" value="27843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="23" width="1370" height="877" extended-state="6" />
@@ -921,11 +947,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.46385542" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.5504518" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.5534639" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.44954818" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.44653615" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.49096385" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.48192772" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.47891566" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23268072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1151,16 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/CreditCardForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1281,6 +1297,27 @@
             <element signature="e#1280#1281#0" expanded="true" />
             <element signature="e#1311#1312#0" expanded="true" />
             <element signature="e#1352#1353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Cal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/impatient/ch02/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,15 +30,15 @@ public class Cal {
             default:
                 break;
         }
-        System.out.println(" Mon Tue Wed Thu Fri Sat Sun");
+        System.out.println(" Sun Mon Tue Wed Thu Fri Sat ");
         DayOfWeek weekday = date.getDayOfWeek();
         int value = weekday.getValue(); // 1 = Monday, ... 7 = Sunday
-        for (int i = 1; i < value; i++)
+        for (int i = 0; i < value%7; i++)
             System.out.print("    ");
         while (date.getMonthValue() == month) {
             System.out.printf("%4d", date.getDayOfMonth());
             date = date.plusDays(1);
-            if (date.getDayOfWeek().getValue() == 1)
+            if (date.getDayOfWeek().getValue() == 7)
                 System.out.println();
         }
         if (date.getDayOfWeek().getValue() != 1)
