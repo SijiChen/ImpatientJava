@@ -3,7 +3,7 @@ package com.impatient.ch03;
 /**
  * Created by sjchen on 8/9/16.
  */
-public class DigitSequence implements IntSequence{
+public class DigitSequence implements IntSequence {
     private int number;
 
     public DigitSequence(int n) {

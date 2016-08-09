@@ -25,10 +25,10 @@ public class ImageDemo {
 
     public static void main(String[] arg) throws IOException {
         BufferedImage frechFlag = ImageDemo.createImage(150, 100, (x, y) -> {
-            return x < 50 ? Color.BLUE :x< 100 ? Color.WHITE : Color.RED;
+            return x < 50 ? Color.BLUE : x < 100 ? Color.WHITE : Color.RED;
         });
         Path path = Paths.get("flag.png");
-        ImageIO.write(frechFlag, "PNG",path.toFile());
-        System.out.println("Image saved to "+ path.toAbsolutePath());
+        ImageIO.write(frechFlag, "PNG", path.toFile());
+        System.out.println("Image saved to " + path.toAbsolutePath());
     }
 }

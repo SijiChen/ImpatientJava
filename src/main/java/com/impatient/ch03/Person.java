@@ -5,7 +5,8 @@ package com.impatient.ch03;
  */
 public interface Person {
     String getName();
-    default int getId(){
+
+    default int getId() {
         return 0;
     }
 }

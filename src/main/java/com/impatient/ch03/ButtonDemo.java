@@ -19,12 +19,12 @@ public class ButtonDemo extends Application {
         Button cancelButton = new Button("Cancel");
         cancelButton.setOnAction(new CancelAction());
         Button okButton = new Button("OK");
-        okButton.setOnAction(event->System.out.println("Oh yes!"));
+        okButton.setOnAction(event -> System.out.println("Oh yes!"));
 
         Label message = new Label("Hello, JavaFX!");
         message.setFont(new Font(100));
         VBox root = new VBox();
-        root.getChildren().addAll(cancelButton, okButton,message);
+        root.getChildren().addAll(cancelButton, okButton, message);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

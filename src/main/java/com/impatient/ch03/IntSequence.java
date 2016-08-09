@@ -5,5 +5,6 @@ package com.impatient.ch03;
  */
 public interface IntSequence {
     boolean hasNext();
+
     int next();
 }
