@@ -18,6 +18,8 @@ public class RunnalbleDemo {
                 System.out.println("Goodbye " + i);
             }
         };
+        Thread t = new Thread(()-> System.out.println("thread start"));
+        t.start();
 
         Executor executor = Executors.newCachedThreadPool();
         executor.execute(hellos);
