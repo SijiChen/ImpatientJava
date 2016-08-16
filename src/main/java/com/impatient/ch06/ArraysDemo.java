@@ -12,5 +12,7 @@ public class ArraysDemo {
         Arrays.swap(0,1,friends);
         System.out.println(java.util.Arrays.toString(friends));
 
+        Arrays.printAll(friends,(e)->true);
+
     }
 }

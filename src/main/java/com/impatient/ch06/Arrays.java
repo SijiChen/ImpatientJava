@@ -1,5 +1,7 @@
 package com.impatient.ch06;
 
+import java.util.function.Predicate;
+
 /**
  * Created by sjchen on 8/16/16.
  */
@@ -15,5 +17,11 @@ public class Arrays {
         values[i] = values[j];
         values[j]= temp;
         return values;
+    }
+    public static <T> void printAll(T[] elements, Predicate<? super T> filter){
+        for(T e: elements){
+            if(filter.test(e))
+                System.out.println(e.toString());
+        }
     }
 }
